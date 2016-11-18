@@ -1,0 +1,51 @@
+<html lang="en">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no"/>
+  <title>Wynbucket</title>
+
+  <!-- CSS  -->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+</head>
+
+
+<body class="background-new">
+
+  <%= render 'nav' %>
+
+
+  <p id="notice"><%= notice %>
+  </p>
+  <%= image_tag @picture.image.url(:medium), id: "img-show" %>
+  <div id="wrapper-show">
+    <p>
+      <strong>Title:</strong>
+      <%= @picture.title %>
+    </p>
+
+
+    <div class="new-picture">
+    <%= link_to 'View Images', pictures_path, class: "bruh2" %>
+    </div>
+  </div>
+
+
+</div>
+
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+<%= render 'footer'%>
+
+
+
+</body>

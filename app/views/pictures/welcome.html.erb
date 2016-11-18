@@ -1,0 +1,130 @@
+<html lang="en">
+<head>
+
+  <script src="https://use.fontawesome.com/ee207c30d3.js"></script>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no"/>
+  <title>Wynbucket</title>
+
+
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+</head>
+<body>
+  <%= render 'nav' %>
+
+
+  <div class="section no-pad-bot">
+    <div class="container">
+      <br><br>
+      <h1 class="title">WynBucket</h1>
+      <div class="row center">
+        <h5 class="header col s12 light">A community dedicated to .PNG</h5>
+      </div>
+
+      <br><br>
+
+    </div>
+    <div class="carousel">
+      <a class="carousel-item" href="#four!"><img src="http://vignette4.wikia.nocookie.net/nintendo/images/a/aa/SM3DW_double-mario.png/revision/latest?cb=20140902212227&path-prefix=en"></a>
+      <a class="carousel-item" href="#five!"><img src="https://cryptic-mesa-5467.herokuapp.com/assets/edtoro123-633155c79a5dab07070a35fd32bdf79b.png"></a>
+      <a class="carousel-item" href="#five!"><img src="http://pre07.deviantart.net/db97/th/pre/i/2013/285/f/8/png_tree_house_by_moonglowlilly-d6q8826.png"></a>
+      <a class="carousel-item" href="#two!"><img src="http://freepngimages.com/wp-content/uploads/2015/10/tiger-jumping-transparent-png-image.png"></a>
+      <a class="carousel-item" href="#five!"><img src="http://vignette3.wikia.nocookie.net/geosworld/images/a/aa/Yoshi_SM64DS.png/revision/latest?cb=20131003205713"></a>
+
+    </div>
+    <br>
+    <br>
+    <div class="new-picture">
+      <%= link_to 'Upload PNG', new_picture_path, class: "bruh" %>
+    </div>
+    <br>
+    <br>
+    <br>
+    <br>
+
+  </div>
+
+
+
+
+  <div class="">
+  </div>
+
+
+
+
+  <table>
+    <thead>
+      <tr>
+      </tr>
+    </thead>
+    <div class="container">
+      <div class="section">
+        <div class="row">
+          <div class="col s12 center">
+            <h3><i class="mdi-content-send brown-text"></i></h3>
+            <%= image_tag("designer3.png", :alt => "design", :class => "main_pic") %>
+            <div >
+              <h4 class="heading1">A digital designers ideal tool</h4>
+            </div>
+            <div >
+            </div>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container2">
+      <div class="section2">
+        <div class="row2">
+          <div class="col s12 center2">
+            <h3><i class="mdi-content-send brown-text2"></i></h3>
+            <%= image_tag("designer.png", :alt => "design2", :class => "main_pic2") %>
+            <div>
+              <h4 class="heading2">Share your favorite images</h5>
+              </div>
+            </div>
+            <br>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+  <div class="container-bottom">
+    <div class="section">
+
+      <div class="row">
+        <div class="col s12 center">
+          <h3><i class="mdi-content-send brown-text"></i></h3>
+          <h4 id="contact">Contact Us</h4>
+          <p class="contact-us">Got an awesome feature idea? For a free proposal and analysis <br>
+            of your needs, please email us at Wynbucket@wyncode.co <br>
+            We'll contact you shorty!</p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+
+
+    <%= render 'footer' %>
+
+
+
+
+  </body>
+  </html>

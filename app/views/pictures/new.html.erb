@@ -1,0 +1,61 @@
+<html lang="en">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no"/>
+  <title>Wynbucket</title>
+
+  <!-- CSS  -->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+</head>
+
+
+<body class="background-new">
+
+
+  <%= render 'nav' %>
+
+
+
+   <div id="wrapper">
+
+	<div name="login-form" class="login-form" action="" method="post">
+
+		<div class="header">
+		<h1 id='upload'>Upload .PNG</h1>
+		<span></span>
+		</div>
+
+		<div class="content">
+      <%= render 'form', picture: @picture %>
+		</div>
+
+    <div class="new-picture">
+    <%= link_to 'View Images', pictures_path, class: "bruh2" %>
+    </div>
+
+
+
+
+
+	</div>
+
+
+</div>
+
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+<%= render 'footer'%>
+
+
+
+</body>

@@ -1,0 +1,46 @@
+<html lang="en" class='showmenu'>
+
+
+  <script src="https://use.fontawesome.com/ee207c30d3.js"></script>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no"/>
+  <title>Wynbucket</title>
+
+  <!-- CSS  -->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+<body class="background3">
+  <%= render 'nav' %>
+
+
+
+<table class="highlight bordered">
+  <thead>
+    <tr>
+      <th class="title-title">Title</th>
+      <th></th>
+      <th colspan="3"></th>
+    </tr>
+  </thead>
+
+  <tbody>
+  <% @pictures.each do |picture| %>
+  <tr>
+
+  <td class="title-index"><%= picture.title %></td>
+  <td class="image"><%= image_tag picture.image.url (:medium) %></td>
+  <td><%= link_to 'Edit', edit_picture_path(picture), class: "waves-effect waves-green btn-flat"%></td>
+  <td><%= link_to 'Show', picture_path(picture), class: "waves-effect waves-green btn-flat"%></td>
+  <td><%= link_to 'Destroy', picture, method: :delete, data: { confirm: 'Are you sure?' },class: "waves-effect waves-red btn-flat"%></td>
+</tr>
+<% end %>
+</tbody>
+</table>
+<br>
+<br>
+<br>
+<br>
+<br><br><br>
+
+<%= render 'footer' %>
+</body>
