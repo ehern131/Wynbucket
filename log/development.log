@@ -30255,3 +30255,120 @@ Processing by PicturesController#welcome as HTML
 Completed 200 OK in 97ms (Views: 94.8ms | ActiveRecord: 0.0ms)
 
 
+Started GET "/" for ::1 at 2016-12-14 12:56:22 -0500
+  [1m[36mActiveRecord::SchemaMigration Load (9.0ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+DEPRECATION WARNING: skip_before_filter is deprecated and will be removed in Rails 5.1. Use skip_before_action instead. (called from <class:PicturesController> at /Users/ErickHernandez/Desktop/wyncode/Image-Gallery/app/controllers/pictures_controller.rb:3)
+Processing by PicturesController#welcome as HTML
+  Rendering pictures/welcome.html.erb within layouts/application
+  Rendered pictures/_nav.html.erb (0.4ms)
+  Rendered pictures/_footer.html.erb (0.4ms)
+  Rendered pictures/welcome.html.erb within layouts/application (2009.3ms)
+Completed 200 OK in 3695ms (Views: 3645.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2016-12-14 12:58:16 -0500
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+DEPRECATION WARNING: skip_before_filter is deprecated and will be removed in Rails 5.1. Use skip_before_action instead. (called from <class:PicturesController> at /Users/ErickHernandez/Desktop/wyncode/Image-Gallery/app/controllers/pictures_controller.rb:3)
+Processing by PicturesController#welcome as HTML
+  Rendering pictures/welcome.html.erb within layouts/application
+  Rendered pictures/_nav.html.erb (0.3ms)
+  Rendered pictures/_footer.html.erb (0.6ms)
+  Rendered pictures/welcome.html.erb within layouts/application (273.1ms)
+Completed 200 OK in 450ms (Views: 435.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pictures/new" for ::1 at 2016-12-14 12:58:18 -0500
+Processing by PicturesController#new as HTML
+  Rendering pictures/new.html.erb within layouts/application
+  Rendered pictures/_nav.html.erb (0.2ms)
+  Rendered pictures/_form.html.erb (151.5ms)
+  Rendered pictures/_footer.html.erb (0.7ms)
+  Rendered pictures/new.html.erb within layouts/application (157.6ms)
+Completed 200 OK in 284ms (Views: 272.3ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/pictures" for ::1 at 2016-12-14 12:58:21 -0500
+Processing by PicturesController#index as HTML
+  Rendering pictures/index.html.erb within layouts/application
+  Rendered pictures/_nav.html.erb (0.3ms)
+  [1m[36mPicture Load (28.8ms)[0m  [1m[34mSELECT "pictures".* FROM "pictures"[0m
+  Rendered pictures/_footer.html.erb (0.3ms)
+  Rendered pictures/index.html.erb within layouts/application (40.0ms)
+Completed 200 OK in 156ms (Views: 125.3ms | ActiveRecord: 28.8ms)
+
+
+Started GET "/pictures/36" for ::1 at 2016-12-14 12:58:34 -0500
+Processing by PicturesController#show as HTML
+  Parameters: {"id"=>"36"}
+  [1m[36mPicture Load (0.2ms)[0m  [1m[34mSELECT  "pictures".* FROM "pictures" WHERE "pictures"."id" = ? LIMIT ?[0m  [["id", 36], ["LIMIT", 1]]
+  Rendering pictures/show.html.erb within layouts/application
+  Rendered pictures/_nav.html.erb (0.2ms)
+  Rendered pictures/_footer.html.erb (0.7ms)
+  Rendered pictures/show.html.erb within layouts/application (6.4ms)
+Completed 200 OK in 217ms (Views: 132.0ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/pictures/50/edit" for ::1 at 2016-12-14 12:58:36 -0500
+Processing by PicturesController#edit as HTML
+  Parameters: {"id"=>"50"}
+  [1m[36mPicture Load (0.1ms)[0m  [1m[34mSELECT  "pictures".* FROM "pictures" WHERE "pictures"."id" = ? LIMIT ?[0m  [["id", 50], ["LIMIT", 1]]
+  Rendering pictures/edit.html.erb within layouts/application
+  Rendered pictures/_nav.html.erb (0.2ms)
+  Rendered pictures/_form.html.erb (2.1ms)
+  Rendered pictures/_footer.html.erb (1.0ms)
+  Rendered pictures/_form.html.erb (1.7ms)
+  Rendered pictures/edit.html.erb within layouts/application (11.9ms)
+Completed 200 OK in 146ms (Views: 101.7ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/" for ::1 at 2016-12-14 13:05:39 -0500
+Started GET "/" for ::1 at 2016-12-14 13:05:39 -0500
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+DEPRECATION WARNING: skip_before_filter is deprecated and will be removed in Rails 5.1. Use skip_before_action instead. (called from <class:PicturesController> at /Users/ErickHernandez/Desktop/wyncode/Image-Gallery/app/controllers/pictures_controller.rb:3)
+Processing by PicturesController#welcome as HTML
+Processing by PicturesController#welcome as HTML
+  Rendering pictures/welcome.html.erb within layouts/application
+  Rendering pictures/welcome.html.erb within layouts/application
+  Rendered pictures/_nav.html.erb (0.2ms)
+  Rendered pictures/_nav.html.erb (0.0ms)
+  Rendered pictures/_footer.html.erb (0.3ms)
+  Rendered pictures/welcome.html.erb within layouts/application (519.4ms)
+  Rendered pictures/_footer.html.erb (0.0ms)
+  Rendered pictures/welcome.html.erb within layouts/application (521.2ms)
+Completed 200 OK in 854ms (Views: 802.4ms | ActiveRecord: 0.0ms)
+
+
+Completed 200 OK in 848ms (Views: 804.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2016-12-14 13:05:41 -0500
+Processing by PicturesController#welcome as HTML
+  Rendering pictures/welcome.html.erb within layouts/application
+  Rendered pictures/_nav.html.erb (0.5ms)
+  Rendered pictures/_footer.html.erb (0.4ms)
+  Rendered pictures/welcome.html.erb within layouts/application (7.9ms)
+Completed 200 OK in 127ms (Views: 124.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pictures" for ::1 at 2016-12-14 13:08:02 -0500
+Processing by PicturesController#index as HTML
+  Rendering pictures/index.html.erb within layouts/application
+  Rendered pictures/_nav.html.erb (0.4ms)
+  [1m[36mPicture Load (12.7ms)[0m  [1m[34mSELECT "pictures".* FROM "pictures"[0m
+  Rendered pictures/_footer.html.erb (1.0ms)
+  Rendered pictures/index.html.erb within layouts/application (82.6ms)
+Completed 200 OK in 598ms (Views: 571.2ms | ActiveRecord: 13.3ms)
+
+
+Started GET "/pictures/32" for ::1 at 2016-12-14 13:08:06 -0500
+Processing by PicturesController#show as HTML
+  Parameters: {"id"=>"32"}
+  [1m[36mPicture Load (0.4ms)[0m  [1m[34mSELECT  "pictures".* FROM "pictures" WHERE "pictures"."id" = ? LIMIT ?[0m  [["id", 32], ["LIMIT", 1]]
+  Rendering pictures/show.html.erb within layouts/application
+  Rendered pictures/_nav.html.erb (0.3ms)
+  Rendered pictures/_footer.html.erb (0.2ms)
+  Rendered pictures/show.html.erb within layouts/application (6.2ms)
+Completed 200 OK in 171ms (Views: 112.8ms | ActiveRecord: 0.4ms)
+
+
