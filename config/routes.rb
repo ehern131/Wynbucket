@@ -4,13 +4,13 @@ Rails.application.routes.draw do
 
 
 root 'pictures#welcome'
+# #
+# get '/pictures' => 'pictures#index'
 #
-get '/pictures' => 'pictures#index'
-
-get '/show' => 'pictures#show'
+# get '/show' => 'pictures#show'
+# #
+# post 'pictures/new' => 'pictures#create'
 #
-post 'pictures/new' => 'pictures#create'
-
-patch '/pictures/'
+# patch '/pictures/'
 
 end

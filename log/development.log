@@ -30255,3 +30255,45 @@ Processing by PicturesController#welcome as HTML
 Completed 200 OK in 97ms (Views: 94.8ms | ActiveRecord: 0.0ms)
 
 
+Started GET "/" for ::1 at 2016-12-14 18:27:15 -0500
+  [1m[36mActiveRecord::SchemaMigration Load (8.4ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+DEPRECATION WARNING: skip_before_filter is deprecated and will be removed in Rails 5.1. Use skip_before_action instead. (called from <class:PicturesController> at /Users/ErickHernandez/Desktop/wyncode/Image-Gallery/app/controllers/pictures_controller.rb:3)
+Processing by PicturesController#welcome as HTML
+  Rendering pictures/welcome.html.erb within layouts/application
+  Rendered pictures/_nav.html.erb (0.5ms)
+  Rendered pictures/_footer.html.erb (0.9ms)
+  Rendered pictures/welcome.html.erb within layouts/application (2449.6ms)
+Completed 200 OK in 4622ms (Views: 4569.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2016-12-18 14:01:04 -0500
+  [1m[36mActiveRecord::SchemaMigration Load (8.9ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+DEPRECATION WARNING: skip_before_filter is deprecated and will be removed in Rails 5.1. Use skip_before_action instead. (called from <class:PicturesController> at /Users/ErickHernandez/Desktop/wyncode/Image-Gallery/app/controllers/pictures_controller.rb:3)
+Processing by PicturesController#welcome as HTML
+  Rendering pictures/welcome.html.erb within layouts/application
+  Rendered pictures/_nav.html.erb (0.7ms)
+  Rendered pictures/_footer.html.erb (0.4ms)
+  Rendered pictures/welcome.html.erb within layouts/application (326.1ms)
+Completed 200 OK in 613ms (Views: 547.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pictures/new" for ::1 at 2016-12-18 14:01:23 -0500
+Processing by PicturesController#new as HTML
+  Rendering pictures/new.html.erb within layouts/application
+  Rendered pictures/_nav.html.erb (0.4ms)
+  Rendered pictures/_form.html.erb (159.9ms)
+  Rendered pictures/_footer.html.erb (0.9ms)
+  Rendered pictures/new.html.erb within layouts/application (171.8ms)
+Completed 200 OK in 328ms (Views: 285.1ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/pictures" for ::1 at 2016-12-18 14:01:25 -0500
+Processing by PicturesController#index as HTML
+  Rendering pictures/index.html.erb within layouts/application
+  Rendered pictures/_nav.html.erb (0.3ms)
+  [1m[36mPicture Load (20.1ms)[0m  [1m[34mSELECT "pictures".* FROM "pictures"[0m
+  Rendered pictures/_footer.html.erb (0.4ms)
+  Rendered pictures/index.html.erb within layouts/application (33.8ms)
+Completed 200 OK in 158ms (Views: 107.3ms | ActiveRecord: 20.1ms)
+
+
