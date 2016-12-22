@@ -284,7 +284,7 @@ background: image-url(http://www.demo.amitjakhu.com/login-form/images/gradient.p
   z-index: -2;
 
   /* Fallback */
-  background-image: image-url(http://www.demo.amitjakhu.com/login-form/images/gradient.png);
+  background-image: url(http://www.demo.amitjakhu.com/login-form/images/gradient.png);
   background-repeat: no-repeat;
 
   /* CSS3 Gradient */
@@ -410,12 +410,12 @@ CONTENT
 
 .user-icon {
   top:153px; /* Positioning fix for slide-in, got lazy to think up of simpler method. */
-  background: rgba(65,72,72,0.75) image-url(http://www.demo.amitjakhu.com/login-form/images/user-icon.png) no-repeat center;
+  background: rgba(65,72,72,0.75) url(http://www.demo.amitjakhu.com/login-form/images/user-icon.png) no-repeat center;
 }
 
 .pass-icon {
   top:201px;
-  background: rgba(65,72,72,0.75) image-url(http://www.demo.amitjakhu.com/login-form/images/pass-icon.png) no-repeat center;
+  background: rgba(65,72,72,0.75) url(http://www.demo.amitjakhu.com/login-form/images/pass-icon.png) no-repeat center;
 }
 
 .content input:focus + div{
